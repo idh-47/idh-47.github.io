@@ -16,6 +16,9 @@ body{
     margin-top: 10px;
     margin-right: 10px;
     box-shadow:  -1px 1.5px 3px #707070;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
 }
 #nav{
     width: auto;
@@ -55,6 +58,7 @@ margin-left: 50px;
     margin-top: 65px;
     margin-left: 50px;
 }
+
 #shopbtn{
     width: 230px;
     height: 64px;
@@ -66,7 +70,9 @@ margin-left: 50px;
     position: relative;
     bottom: 25px;
     border: none;
+    padding-bottom: 5px;
 }
+
 #blob{
     width: 501px;
     height: 505px;
