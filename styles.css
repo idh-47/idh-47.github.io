@@ -1,0 +1,278 @@
+body{
+    font-family: Helvetica, sans-serif;
+    margin: 0px;
+}
+#main-container{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+#search{
+    width: 234px;
+    height: 43px;
+    border-radius: 7px;
+    margin-top: 10px;
+    margin-right: 10px;
+    box-shadow:  -1px 1.5px 3px #707070;
+}
+#nav{
+    width: auto;
+    height: auto;
+    position: relative;
+    flex-grow: 2;
+    text-align: center;
+    top: 10px;
+    right: 50px;
+}
+li{
+    display: inline;
+    padding-left: 90px;
+    font-size: 16px;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#logo{
+font-size: 24px;
+margin-left: 50px;
+}
+.orange{
+    color: #FE5E35;
+}
+#orange{
+    color: #FE5E35;
+    font-size: 28px;
+}
+#discover{
+    font-size: 56px;
+}
+
+#hero{
+    margin-top: 65px;
+    margin-left: 50px;
+}
+#shopbtn{
+    width: 230px;
+    height: 64px;
+    font-size: 24px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    position: relative;
+    bottom: 25px;
+    border: none;
+}
+#blob{
+    width: 501px;
+    height: 505px;
+    background-color: #FE5E35;
+    opacity: 76%;
+    float: right;
+    position: relative;
+    bottom: 530px;
+    right: 50px;
+    border-top-left-radius: 140px;
+    border-top-right-radius: 140px;
+    border: none;
+}
+#colorswatch{
+    width: 501px;
+    height: 520px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.color{
+    width: 28px;
+    height: 28px;
+    border: 1px solid black;
+    border-radius: 100%;
+    margin-left: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+#color1{
+    background-color: #4C4B53;
+}
+#color2{
+    background-color: #FE5E35;
+}
+#color3{
+    background-color: #D9D9D9;
+}
+#color4{
+    background-color: #0C0C0C;
+}
+#circle{
+    width: 529px;
+    height: 536px;
+    border-radius: 100%;
+    background-color: #FD8364;
+    margin-left: 50px;
+    position: relative;
+    top: 140px;
+}
+#blabla{
+    width: 800px;
+    height: 500px;
+    position: relative;
+    left: 635px;
+    bottom: 430px;
+}
+#readmbtn{
+    width: 180px; 
+    height: 52px; 
+    font-size: 18px; 
+    background-color: #101010; 
+    color: white;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+.collection_header{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    bottom: 16rem;
+}
+#categories{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 11rem;
+}
+.catergorie{
+    width: 170px;
+    height: 51px;
+    color: white;
+    background-color:#101010 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 3rem;
+}
+#orange_categorie{
+    background-color: #FE5E35;
+}
+.catergorie:hover{
+    background-color: #FE5E35;
+}
+
+
+
+#listings{
+    display: grid;
+    grid-template-columns: 396px 396px 396px;
+    column-gap: 40px;
+    row-gap: 120px;
+    justify-content: center;
+}
+.listing{
+    width: 394px;
+    height: 434px;
+    background-color: white;
+    border: 1px solid #F3F1F1;
+    border-radius: 8px;
+}
+.img{
+    width: 293px;
+    height: 358px;
+    background-color: #C4C4C4;
+    position: relative;
+    bottom: 70px;
+}
+
+.listingtext{
+    position: relative;
+    bottom: 50px;
+    right: 30px;
+}
+.price{
+    position: relative;
+    bottom: 80px;
+    right: 35px;
+}
+
+#cartegorie_pages{
+    width: 100%;
+    height: 111px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+.pages_s{
+    width: 28px;
+    height: 28px;
+    border-radius: 100%;
+    background-color: #A6A6A6;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.pages_orange{
+    width: 28px;
+    height: 28px;
+    border-radius: 100%;
+    background-color: #FE5E35;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.pages_s:hover{
+    background-color: #FE5E35;
+}
+#section_rev{
+    display: flex;
+    justify-content: center;
+}
+#reviews{
+    width: 1036px;
+    height: 797px;
+    position: relative;
+    bottom: 200px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+#cartegorie_pages2{
+    width: 100%;
+    height: 111px;
+    position: relative;
+    bottom: 450px;
+    display: flex;
+    justify-content: center;
+}
+.inside_reviews{
+    width: 320px;
+    height: 499px;
+    border: 1px solid #EDEDED;
+    text-align: center;
+}
+.headpic{
+    width: 136px;
+    height: 136px;
+    border-radius: 100%;
+    background-color: #C4C4C4;
+    margin: 0 auto;
+}
+
+#stay_inL{
+    width: 100%;
+    height: 566px;
+    position: relative;
+    bottom: 300px;
+    background-color: rgba(153, 46, 19, 0.7);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
